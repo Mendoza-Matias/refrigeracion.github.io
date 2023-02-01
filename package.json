@@ -1,0 +1,13 @@
+{
+  "name": "refrigeracion",
+  "version": "1.0.0",
+  "description": "Pagina de refrigeración",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss ./css/style.css"
+  },
+  "author": "M&M",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

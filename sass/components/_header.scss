@@ -1,0 +1,40 @@
+.header{
+    @extend %display;
+    justify-content: center;
+    margin-bottom:5rem ;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5rem;
+    font: {
+     size: $size-primary;
+     family:$font-family;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+
+        max-width: 100%;
+    }
+    button{
+        font: {
+            size: $size-secondary;
+            family:$font-family;
+        }
+        background:lighten($color: $terciary, $amount: 5); 
+        border: none;
+        border-radius: .5rem;
+        margin: 1rem;
+        height: 55px;
+        width: 150px;
+        cursor: pointer;
+    &:hover{
+        background: lighten($color: $secondary, $amount: 20) ;
+    }
+    }
+    a{
+        text-decoration: none;
+        color: $dark;
+    }
+
+    
+}

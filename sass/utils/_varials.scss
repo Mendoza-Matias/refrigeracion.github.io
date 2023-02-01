@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+//Variables de colores
+
+$primary:#10217D;
+$secondary:#3B5EFE;
+$terciary:#CCCCCC;
+$light:#FFF;
+$dark:#000;
+
+$colorContact : "wtp"#008F39,"inst" #5851DB,"fk"#3B5998;
+
+
+//Size
+
+$size-primary:1.5rem;
+$size-secondary:1.2rem;
+
+//font
+
+$font-family:'Roboto', sans-serif;
+
+//display navegacion
+%display{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+%space{
+    text-align: center;
+    background: lighten($color: $terciary, $amount: 15) ;
+    font-family: $font-family;
+    font-size: $size-secondary;
+}

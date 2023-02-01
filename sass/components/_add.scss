@@ -1,0 +1,38 @@
+.space{
+ @extend %space
+}
+.contact-app{
+    @extend %display;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    .button{
+        height: 2rem;
+        width: 5rem;
+        border: none;
+    }
+}
+
+.contact-app{
+    @each $name , $color in $colorContact {
+        .btn-#{$name}{
+            background: $color;
+            width: 10rem;
+            margin-bottom: 1rem;
+            border: none;
+            border-radius: 1rem;
+        }
+    }
+    .link{
+        color: $dark;
+        text-decoration: none;
+        font: {
+            size:$size-secondary;
+            family: $font-family;
+        }
+        &:hover{
+            color: $light;
+        }
+    }
+    
+}

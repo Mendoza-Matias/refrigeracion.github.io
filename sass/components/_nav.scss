@@ -1,0 +1,18 @@
+.navegacion{
+background-color:lighten($color: $primary, $amount: 35);
+font-size: $size-secondary;
+font-family: $font-family;
+gap: 1rem;
+li a{
+    color: $dark;
+    &:hover{
+        color: $light;
+    }
+}
+
+.strong{
+    font-size: $size-primary;
+    color: $light;
+    text-shadow: 0px 0px 5px black;
+}
+}

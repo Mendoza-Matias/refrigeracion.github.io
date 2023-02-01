@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&M Refrigeración</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="navegacion container-fluid">
+          <li><strong class="strong">M&M Refrigeracion</strong></li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    <header id="inicio" class="header">
+        <div>
+        <h1>M&M<br>Refrigeración</h1>
+        <p>Somos la solución que estas buscando
+        </p>
+        <button><a target="_blank" href="https://wa.me/5491165491266"> Necesito una solución </a></button>
+        </div>
+        <div><img src="public/img/logotipoFactura.jpg" alt="logo m&m refrigeración"></div>
+    </header>
+    <main>
+        <div class="space">
+            <h2>Nuestros Servicios</h2>
+            <p>Tenemos conocimientos en los siguientes servicios:</p>
+        <section id="servicios" class="servicios">
+        <!--Insertamos la información desde services.js-->
+        </section>
+        </div>
+    </main>
+    <div class="space">
+        <h2>Contacto
+        </h2>
+        <p>Estamos en camino , solo debes llamarnos</p>
+    </div>
+    <footer id="contacto" class="contacto">
+        <div>
+            <img src="public/img/contact.jpg" alt="imagen de contacto">
+        </div>
+        <form id="form">
+            <h3>Dejanos tu contacto y tu problema</h3>
+            <p>El equipo se comunicara <br>contigo a la brevedad...</p>
+            <input name="name" type="text" required placeholder="Ingresa tu nombre" maxlength="10"    >
+            <textarea name="message" class="message" required placeholder="Dime tu problema: Mi aire no enfria" maxlength="50"></textarea>
+            <button type='sumbmit' class="send" >Enviar</button>
+        </form>
+    </footer>
+<div class="space">
+    <h3>Derechos reservados<br>M&M Refrigeracion</h3>
+    <p>San Miguel - Provincia de Buenos Aires</p>
+<div class="contact-app">
+        <button class=" btn-wtp"><i class="bi bi-whatsapp"> <a class="link" target="_blank" href="https://wa.me/5491165491266">Whathsapp</i></a></button>
+        <button class=" btn-inst"><i class="bi bi-instagram"> <a class="link" target="_blank" href="https://instagram.com/m.mrefrigeracion?igshid=NDk5N2NlZjQ=">Instagram</i></a></button>
+        <button class=" btn-fk"><i class="bi bi-house"><a class="link" href="#inicio">Inicio</i></a></button>
+        
+</div>
+<div class="contact-app">
+    <ul>
+        <li>Telefono : 1165491266</li>
+        <li>Instagram : @m.mrefrigeracion</li>
+    </ul>
+</div>    
+</div>
+    <script src="js/services.js"></script>
+    <script src="js/whathsapp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
